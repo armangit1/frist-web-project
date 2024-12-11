@@ -99,11 +99,38 @@ padding: 12px 30px;
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
 /* abaout section style  */
 .about{
    padding: 130px;
    margin: 130px 0;
    background: #FFF8F3;
    border-radius: 10px;
+   
+
+}
+.about-info-container{
+    display: flex;
+   justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do{
+    padding: 0 150px;
+}
+.skills{
+    display:flex;
+}
+.skill-item{
+    padding: 50px;
+}
+.skill-decs{
+    color: #757575;
+   font-size: 18px;
    
 }
