@@ -24,6 +24,19 @@ nav{
 .r{
     color:#FD6E0A ;
 }
+.section-item{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.section-desc{
+   color: #757575;
+   text-align: center;
+   font-size: 18px;
+
+}
 nav > ul{
     display: flex;
     align-items: center;
@@ -85,3 +98,12 @@ padding: 12px 30px;
     max-width: 800px;
 }
 
+/* main section style */
+/* abaout section style  */
+.about{
+   padding: 130px;
+   margin: 130px 0;
+   background: #FFF8F3;
+   border-radius: 10px;
+   
+}
