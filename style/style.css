@@ -166,3 +166,34 @@ hr{
    text-align: center;
    margin-bottom: 40px;
 }
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    justify-content: space-around;
+   
+    
+}
+.socal-link img{
+    margin: 10px;
+}
+.contract > input , textarea{
+    display: block;
+  /* text-align: left; */
+  margin-bottom: 20px;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+
+}
+footer .fotar-colm{
+    width: 50%;
+}
+.contract textarea{
+    min-width: 300px;
+    width: 300px;
+    height: 80px;
+}
+.fotar-colm{
+    margin-left: 150px;
+}
