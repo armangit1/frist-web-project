@@ -131,11 +131,14 @@ main{
 }
 .skills{
     display:flex;
+
 }
 .skill-item{
     padding: 50px;
     background-color:#ffffff;
     margin: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
  
 }
 .skill-decs{
@@ -195,5 +198,100 @@ footer .fotar-colm{
     height: 80px;
 }
 .fotar-colm{
-    margin-left: 150px;
+    margin-left: 10%;
+}
+@media screen  and (max-width:576px){
+     .skills, .rezumi, .about-info-container, .banner{
+        flex-direction: column;
+     }
+     #what-i-do{
+        padding: 10px;
+     }
+     .banner .profile{
+        width: 100%;
+       
+    
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    .btn , .btn2{
+        
+        font-size: 15px;
+        padding: 8px 20px;
+        
+        }
+    nav{
+   
+        margin: 0 10px 0 100px;
+    }
+    
+     
+    
+     footer{
+        flex-direction: column;
+        padding: 50px;
+       
+     }
+     .fotar-colm{
+        margin-left: 10px;
+       
+     }
+     footer .fotar-colm{
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+    }
+    .header ul{
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 25px;
+    }
+}
+@media screen  and (min-width:576px)  and (max-width:922px){
+     .skills , .about-info-container{
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+     }
+     .banner .profile{
+        width: 100%;
+       
+    
+        
+    } 
+    .btn , .btn2{
+        
+        font-size: 18px;
+        padding: 10px 20px;
+        
+        }
+    nav{
+   
+        margin: 0 100px;
+    }
+    .banner{
+        flex-direction: column;
+     }
+     #what-i-do, .section-desc{
+        padding: 10px;
+     }
+     .skill-decs{
+        font-size: 15px;
+     }
+     footer{
+        flex-direction: column;
+        padding: 50px;
+       
+     }
+     .fotar-colm{
+        margin-left: 10px;
+       
+     } 
+     footer .fotar-colm{
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+    }
 }
